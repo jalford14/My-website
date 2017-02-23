@@ -5,35 +5,66 @@
 		<title>Jimmy Alford</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Source+Sans+Pro:300" rel="stylesheet">
 
 	</head>
-	
+
 
 	<body>
 
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="index.html">Resume</a>
+		  <a href="#">Projects</a>
+		  <a href="about.html">About</a>
+		  <a href="#">Contact</a>
+		</div>
+
 		<div id="header">
-			<h1 id="title">My Website</h1>
+			<h1 id="name">JIMMY ALFORD</h1>
+			<img src="dropdown.png" height="50" width="50" onclick="openNav()">
 		</div>
 
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+			}
 
-		<div id="nav">
-			<a href="">Resume</a>
-			<a href="">Projects</a>
-			<a href="">About</a>
-			<a href="">Contact</a>
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+
+		<div id="title">
+			<div id="text">About Me</div>
 		</div>
-
 
 		<div id="image">
 			<img id = "myPic" src="Jimmy Alford.jpg">
 		</div>
 
+		<div id="bio">
+			<p>Hello there! My name is Jimmy Alford, I am currently studying to earn my Bachelor's in Computer Science along with a minor in Mathematics from Liberty University, and I will be graduating in the Spring of 2018.</p>
+
+			<p>In my previous internships, I have worked as a website designer using HTML and CSS, a video game programmer, and, just recently, I interned at Princeton University where I worked with Internet of Thing (IoT) devices to track air quality around campus. I got to learn how to parse JSON, what API is and how it's useful, and how to work with an IoT device. I'm especially proud of this internship because my code was used by another research group we were working closely with where they tracked air quality in Singapore. It was amazing to know that what I was doing was already making an impact with people across the world.</p>
+
+			<p>Along with developing my knowledge of Computer Science through the classroom, I also work for my university as an RA. Through this job, I have developed strong leadership and communication skills since I am in charge of over 60 students. Beyond the classroom, I plan on starting a personal project working with classmates to make an app over winter break when I have more free time after finals. This app will be a simple bingo game and, will help develop my knowledge of how an app is made along with how to have a multiplayer interface.</p>
+
+			<p>I believe that with my previous experience with technology, school projects, and current role on student leadership as an RA, I am qualified to be a part of the Quora team. I want to be able to use my current knowledge as a student in order to contribute to your current projects, and I want to learn from those that are much more experienced than me. I also believe that my role as an RA has prepared me in order to help be a leader within your company.</p>
+
+			<p>With all this to say, Quora is a community that excites me to work with and that is why I am applying to work an internship for your company. Please look at my resume that goes into more detail about my previous work experience along with some school projects that I have worked on while at Liberty.</p>
+
+			<p>I am confident that my abilities in computer science will help continue the growth that your company is already experiencing. Thank you for your time - I look forward to learning more about an opportunity.
+			</p>
+			
+
+		</div>
+		<div class="push"></div>
 	</body>
 
 
-	<footer>
+	<footer id="logos">
 
-		<div id="logos">
 			<a href="https://github.com/jalford14">
 				<img id="github" src="github.png">
 			</a>
@@ -41,7 +72,7 @@
 			<a href="https://www.linkedin.com/in/jimmy-alford-39670a109">
 				<img id="linkedin" src="linkedin.png">
 			</a>
-		</div>
+
 	</footer>
 
 </html>
