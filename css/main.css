@@ -25,6 +25,7 @@ body, html {
 	font-size: 30px;
 	text-align: right;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	padding-right: 25px;
 	position: absolute;
 	right: 0;
@@ -48,7 +49,8 @@ body, html {
 #title #text {
 	height: auto;
 	font-size: 50px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans';
+	font-weight: 700;
 }
 
 #intro {
@@ -137,7 +139,7 @@ span {
 .para {
 	clear: left;
 	max-width: 700px;
-	/*padding-right: 5%;*/
+	font-family: 'Open Sans';
 	padding-left: 5%;
 	overflow: auto;
 }
