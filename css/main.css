@@ -16,8 +16,8 @@ body, html {
 }
 
 #header {
-	background-color: #4484CE;
-	border: solid #4484CE;
+	background-color: #4464CE;
+	border: solid #4464CE;
 	height: 75px;
 }
 
@@ -107,7 +107,6 @@ span {
 *************/
 
 
-
 .company {
 	padding-top: 65px;
 	overflow: hidden;
@@ -115,17 +114,29 @@ span {
 
 .compTitle {
 	font-size: 45px;
-    text-align: left;
-	padding-left: 5%;
-	float: left;
+    text-align: center;
+	border-top: solid 1px black;
+	max-width: 65%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.line {
+	border-top: solid 1px #4464CE;
+	max-width: 65%;
+	margin: auto;
+}
+
+.image #prince {
+	padding-top: 25px;
 }
 
 .image img {
-   /*content:url('../images/ACLJ_Logo.png');*/
-   float: right;
-   padding-right: 5%;
    width: 25%;
    height: 25%;
+   display: block;
+   margin: auto;
 }​
 
 .compPic {
@@ -140,12 +151,16 @@ span {
 	clear: left;
 	max-width: 700px;
 	font-family: 'Open Sans';
+	font-weight: 300;
 	padding-left: 5%;
 	overflow: auto;
+	width: 50%;
+	margin: 0 auto;
+	font-size: 20px;
 }
 
 .bullet li {
-	margin: 10px;
+	margin: 15px;
 }
 
 /************
@@ -176,8 +191,8 @@ footer {
 
 footer, .push {
 	height: 75px;
-	background-color: #4484CE;
-	margin-top: 50px;
+	background-color: white;
+	margin-top: 150px;
 }
 
 #logos {
