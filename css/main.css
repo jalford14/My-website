@@ -7,6 +7,7 @@ body {
 	height: 0 0 100px;
 	padding: 25px;
 	background-color: #D9D9D9;
+	background-color: white;
 }
 
 body, html {
@@ -42,7 +43,6 @@ body, html {
 #title {
 	padding-top: 25px;
 	text-align: center;
-	background-color: 
 }
 
 #title #text {
@@ -52,7 +52,7 @@ body, html {
 }
 
 #intro {
-	border: solid;
+	/*border: solid;*/
 	min-height: 650px;
 }
 
@@ -64,9 +64,9 @@ body, html {
 #introName {
 	height: 650px;
     line-height: 650px;
-
+	font-size: 50px;
     text-align: center;
-    border: 2px dashed #f69c55;
+    /*border: 2px dashed #f69c55;*/
 }
 
 span {
@@ -89,7 +89,6 @@ span {
 
 #image {
 	margin-top: 25px;
-	height
 }
 
 #myPic {
@@ -99,6 +98,52 @@ span {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+}
+
+/*************
+**EXPERIENCE**
+*************/
+
+
+
+.company {
+	padding-top: 65px;
+	overflow: hidden;
+}
+
+.compTitle {
+	font-size: 45px;
+    text-align: left;
+	padding-left: 5%;
+	float: left;
+}
+
+.image img {
+   /*content:url('../images/ACLJ_Logo.png');*/
+   float: right;
+   padding-right: 5%;
+   width: 25%;
+   height: 25%;
+}​
+
+.compPic {
+	width: 50%;
+	height: 50%;
+	float: left;
+	padding-right: 5%;
+	border: solid black;
+}
+
+.para {
+	clear: left;
+	max-width: 700px;
+	/*padding-right: 5%;*/
+	padding-left: 5%;
+	overflow: auto;
+}
+
+.bullet li {
+	margin: 10px;
 }
 
 /************
